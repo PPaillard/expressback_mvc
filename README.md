@@ -7,7 +7,7 @@ This repository is a simple Express MVC structure from scratch.
 ## Steps
 
 1. Clone the repo from Github.
-2. Run `npm install` or `yarn install`.
+2. Run `npm install`
 3. Create _.env_ from _.env.sample_ file and add your DB parameters. Don't delete the _.sample_ file, it must be kept.
 
 ```
@@ -40,4 +40,4 @@ An example (a basic list of items) is provided (you can load the _database.sql_ 
 - Item add: POST localhost:5000/items
 - Item deletion: DELETE localhost:5000/items/:id
 
-You can find all these routes declared in the file `src/router.js`. You can add your own new routes, controllers and models.
+You can find all these routes declared in the file `src/router/index.js`. You can add your own new routes, controllers and models.
